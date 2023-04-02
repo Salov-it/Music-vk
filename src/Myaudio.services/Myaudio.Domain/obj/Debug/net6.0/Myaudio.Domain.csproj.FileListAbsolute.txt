@@ -1,0 +1,12 @@
+D:\github\music.services\Myaudio.services\Myaudio.services\Myaudio.Domain\bin\Debug\net6.0\Myaudio.Domain.deps.json
+D:\github\music.services\Myaudio.services\Myaudio.services\Myaudio.Domain\bin\Debug\net6.0\Myaudio.Domain.dll
+D:\github\music.services\Myaudio.services\Myaudio.services\Myaudio.Domain\bin\Debug\net6.0\Myaudio.Domain.pdb
+D:\github\music.services\Myaudio.services\Myaudio.services\Myaudio.Domain\obj\Debug\net6.0\Myaudio.Domain.csproj.AssemblyReference.cache
+D:\github\music.services\Myaudio.services\Myaudio.services\Myaudio.Domain\obj\Debug\net6.0\Myaudio.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\github\music.services\Myaudio.services\Myaudio.services\Myaudio.Domain\obj\Debug\net6.0\Myaudio.Domain.AssemblyInfoInputs.cache
+D:\github\music.services\Myaudio.services\Myaudio.services\Myaudio.Domain\obj\Debug\net6.0\Myaudio.Domain.AssemblyInfo.cs
+D:\github\music.services\Myaudio.services\Myaudio.services\Myaudio.Domain\obj\Debug\net6.0\Myaudio.Domain.csproj.CoreCompileInputs.cache
+D:\github\music.services\Myaudio.services\Myaudio.services\Myaudio.Domain\obj\Debug\net6.0\Myaudio.Domain.dll
+D:\github\music.services\Myaudio.services\Myaudio.services\Myaudio.Domain\obj\Debug\net6.0\refint\Myaudio.Domain.dll
+D:\github\music.services\Myaudio.services\Myaudio.services\Myaudio.Domain\obj\Debug\net6.0\Myaudio.Domain.pdb
+D:\github\music.services\Myaudio.services\Myaudio.services\Myaudio.Domain\obj\Debug\net6.0\ref\Myaudio.Domain.dll

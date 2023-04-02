@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{800F31D9-B104-4FB5-B147-7623094E47F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Myaudio.Application", "Myaudio.Application\Myaudio.Application.csproj", "{55788F5B-6499-4C16-9951-42CEA251BBBC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Myaudio.Domain", "Myaudio.Domain\Myaudio.Domain.csproj", "{8921DF85-FC92-4D37-899F-35768C58B373}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{3AA9F705-E6AD-4E02-A90B-6EF603050794}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Myaudio.persistance", "Myaudio.persistance\Myaudio.persistance.csproj", "{1BA9E90E-96E0-452C-A7B8-330E0DD34C2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{C3E09571-E245-4C88-998E-BDE1AF768226}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Myaudio.WebApi", "Myaudio.WebApi\Myaudio.WebApi.csproj", "{57A36BE2-A7E2-41FC-9BB5-10DFCBDB2E20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55788F5B-6499-4C16-9951-42CEA251BBBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55788F5B-6499-4C16-9951-42CEA251BBBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55788F5B-6499-4C16-9951-42CEA251BBBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55788F5B-6499-4C16-9951-42CEA251BBBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8921DF85-FC92-4D37-899F-35768C58B373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8921DF85-FC92-4D37-899F-35768C58B373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8921DF85-FC92-4D37-899F-35768C58B373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8921DF85-FC92-4D37-899F-35768C58B373}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BA9E90E-96E0-452C-A7B8-330E0DD34C2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BA9E90E-96E0-452C-A7B8-330E0DD34C2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BA9E90E-96E0-452C-A7B8-330E0DD34C2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BA9E90E-96E0-452C-A7B8-330E0DD34C2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57A36BE2-A7E2-41FC-9BB5-10DFCBDB2E20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57A36BE2-A7E2-41FC-9BB5-10DFCBDB2E20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57A36BE2-A7E2-41FC-9BB5-10DFCBDB2E20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57A36BE2-A7E2-41FC-9BB5-10DFCBDB2E20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{55788F5B-6499-4C16-9951-42CEA251BBBC} = {800F31D9-B104-4FB5-B147-7623094E47F7}
+		{8921DF85-FC92-4D37-899F-35768C58B373} = {800F31D9-B104-4FB5-B147-7623094E47F7}
+		{1BA9E90E-96E0-452C-A7B8-330E0DD34C2A} = {3AA9F705-E6AD-4E02-A90B-6EF603050794}
+		{57A36BE2-A7E2-41FC-9BB5-10DFCBDB2E20} = {C3E09571-E245-4C88-998E-BDE1AF768226}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0701FEB2-C908-4504-9C31-4512F6604300}
+	EndGlobalSection
+EndGlobal

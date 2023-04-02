@@ -1,0 +1,17 @@
+D:\github\music.services\Myaudio.services\Myaudio.services\Myaudio.Application\bin\Debug\net6.0\Myaudio.Application.deps.json
+D:\github\music.services\Myaudio.services\Myaudio.services\Myaudio.Application\bin\Debug\net6.0\Myaudio.Application.dll
+D:\github\music.services\Myaudio.services\Myaudio.services\Myaudio.Application\bin\Debug\net6.0\Myaudio.Application.pdb
+D:\github\music.services\Myaudio.services\Myaudio.services\Myaudio.Application\bin\Debug\net6.0\Myaudio.Domain.dll
+D:\github\music.services\Myaudio.services\Myaudio.services\Myaudio.Application\bin\Debug\net6.0\Myaudio.persistance.dll
+D:\github\music.services\Myaudio.services\Myaudio.services\Myaudio.Application\bin\Debug\net6.0\Myaudio.Domain.pdb
+D:\github\music.services\Myaudio.services\Myaudio.services\Myaudio.Application\bin\Debug\net6.0\Myaudio.persistance.pdb
+D:\github\music.services\Myaudio.services\Myaudio.services\Myaudio.Application\obj\Debug\net6.0\Myaudio.Application.csproj.AssemblyReference.cache
+D:\github\music.services\Myaudio.services\Myaudio.services\Myaudio.Application\obj\Debug\net6.0\Myaudio.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\github\music.services\Myaudio.services\Myaudio.services\Myaudio.Application\obj\Debug\net6.0\Myaudio.Application.AssemblyInfoInputs.cache
+D:\github\music.services\Myaudio.services\Myaudio.services\Myaudio.Application\obj\Debug\net6.0\Myaudio.Application.AssemblyInfo.cs
+D:\github\music.services\Myaudio.services\Myaudio.services\Myaudio.Application\obj\Debug\net6.0\Myaudio.Application.csproj.CoreCompileInputs.cache
+D:\github\music.services\Myaudio.services\Myaudio.services\Myaudio.Application\obj\Debug\net6.0\Myaudio.Application.csproj.CopyComplete
+D:\github\music.services\Myaudio.services\Myaudio.services\Myaudio.Application\obj\Debug\net6.0\Myaudio.Application.dll
+D:\github\music.services\Myaudio.services\Myaudio.services\Myaudio.Application\obj\Debug\net6.0\refint\Myaudio.Application.dll
+D:\github\music.services\Myaudio.services\Myaudio.services\Myaudio.Application\obj\Debug\net6.0\Myaudio.Application.pdb
+D:\github\music.services\Myaudio.services\Myaudio.services\Myaudio.Application\obj\Debug\net6.0\ref\Myaudio.Application.dll
