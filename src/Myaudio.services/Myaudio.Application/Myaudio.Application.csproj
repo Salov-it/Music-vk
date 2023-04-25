@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
     <PackageReference Include="MediatR" Version="12.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.3" />
@@ -17,7 +18,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Myaudio.Domain\Myaudio.Domain.csproj" />
-    <ProjectReference Include="..\Myaudio.persistance\Myaudio.persistance.csproj" />
   </ItemGroup>
 
 </Project>

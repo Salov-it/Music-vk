@@ -4,6 +4,91 @@
     "D:\\github\\Music-vk\\src\\MyRecommendations\\MyRecommendationsService.persistance\\MyRecommendationsService.persistance.csproj": {}
   },
   "projects": {
+    "D:\\github\\Music-vk\\src\\MyRecommendations\\MyRecommendationsService.Application\\MyRecommendationsService.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\github\\Music-vk\\src\\MyRecommendations\\MyRecommendationsService.Application\\MyRecommendationsService.Application.csproj",
+        "projectName": "MyRecommendationsService.Application",
+        "projectPath": "D:\\github\\Music-vk\\src\\MyRecommendations\\MyRecommendationsService.Application\\MyRecommendationsService.Application.csproj",
+        "packagesPath": "C:\\Users\\salov\\.nuget\\packages\\",
+        "outputPath": "D:\\github\\Music-vk\\src\\MyRecommendations\\MyRecommendationsService.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\salov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\github\\Music-vk\\src\\MyRecommendations\\MyRecommendationsService.Domain\\MyRecommendationsService.Domain.csproj": {
+                "projectPath": "D:\\github\\Music-vk\\src\\MyRecommendations\\MyRecommendationsService.Domain\\MyRecommendationsService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
+            "VkNet": {
+              "target": "Package",
+              "version": "[1.72.0, )"
+            },
+            "VkNet.AudioBypassService": {
+              "target": "Package",
+              "version": "[1.7.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\github\\Music-vk\\src\\MyRecommendations\\MyRecommendationsService.Domain\\MyRecommendationsService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -83,6 +168,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "D:\\github\\Music-vk\\src\\MyRecommendations\\MyRecommendationsService.Application\\MyRecommendationsService.Application.csproj": {
+                "projectPath": "D:\\github\\Music-vk\\src\\MyRecommendations\\MyRecommendationsService.Application\\MyRecommendationsService.Application.csproj"
+              },
               "D:\\github\\Music-vk\\src\\MyRecommendations\\MyRecommendationsService.Domain\\MyRecommendationsService.Domain.csproj": {
                 "projectPath": "D:\\github\\Music-vk\\src\\MyRecommendations\\MyRecommendationsService.Domain\\MyRecommendationsService.Domain.csproj"
               }

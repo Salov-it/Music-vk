@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Myaudio.Application\Myaudio.Application.csproj" />
     <ProjectReference Include="..\Myaudio.Domain\Myaudio.Domain.csproj" />
   </ItemGroup>
 

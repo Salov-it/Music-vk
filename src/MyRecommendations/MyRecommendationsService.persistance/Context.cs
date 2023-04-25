@@ -1,16 +1,18 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using MyRecommendationsService.Application.Interface;
 using MyRecommendationsService.Domain;
 
 namespace MyRecommendationsService.persistance
 {
-    public class Context : DbContext
+    public class Context : DbContext, IContext
     {
-        public DbSet<Audio> audios => Set<Audio>();
-        public Context() => Database.EnsureCreated();
+        public DbSet<Audio> Audios { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public Context(DbContextOptions<Context> options) : base(options) { }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            optionsBuilder.UseSqlite("Data Source=MyaudioBasse.db");
+            modelBuilder.ApplyConfiguration(new Config());
+            base.OnModelCreating(modelBuilder);
         }
     }
 }

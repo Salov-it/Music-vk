@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MyRecommendationsService.Application\MyRecommendationsService.Application.csproj" />
     <ProjectReference Include="..\MyRecommendationsService.Domain\MyRecommendationsService.Domain.csproj" />
   </ItemGroup>
 

@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "RSLq1rfU4rUZaiUIMZ4PhDRKJvH7WCbiTL6kosOa7yUwXgIdiSk7KBjmDtNp1p3nZSo8tKJh8ukwXrFiwgsigA==",
+  "dgSpecHash": "UJZGVr+JqsmWGl7+GhV+Tr78zWKGKcCTgm/20zPfp29ohD6+Qxcq3jqSz4r3tW9rEFGq2Xg1Xpb7qcX/KPDdIw==",
   "success": true,
   "projectFilePath": "D:\\github\\Music-vk\\src\\MyRecommendations\\MyRecommendationsService.WebApi\\MyRecommendationsService.WebApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\salov\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\salov\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\salov\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512",
     "C:\\Users\\salov\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
     "C:\\Users\\salov\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\salov\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\salov\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.15\\microsoft.data.sqlite.core.6.0.15.nupkg.sha512",
     "C:\\Users\\salov\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.15\\microsoft.entityframeworkcore.6.0.15.nupkg.sha512",
     "C:\\Users\\salov\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.15\\microsoft.entityframeworkcore.abstractions.6.0.15.nupkg.sha512",

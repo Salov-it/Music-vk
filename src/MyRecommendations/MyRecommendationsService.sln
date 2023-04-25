@@ -9,13 +9,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{AD3FDA3C-E43A-4CC5-B8C7-CEFBC22949B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyRecommendationsService.Application", "MyRecommendationsService.Application\MyRecommendationsService.Application.csproj", "{38961EA8-E8BE-4680-84B3-750C17E37263}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyRecommendationsService.Application", "MyRecommendationsService.Application\MyRecommendationsService.Application.csproj", "{38961EA8-E8BE-4680-84B3-750C17E37263}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyRecommendationsService.Domain", "MyRecommendationsService.Domain\MyRecommendationsService.Domain.csproj", "{BC8ECF6F-53D6-4472-8604-FB1B0236F223}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyRecommendationsService.Domain", "MyRecommendationsService.Domain\MyRecommendationsService.Domain.csproj", "{BC8ECF6F-53D6-4472-8604-FB1B0236F223}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyRecommendationsService.persistance", "MyRecommendationsService.persistance\MyRecommendationsService.persistance.csproj", "{C9107BBE-5C96-4D74-AA05-91288325A281}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyRecommendationsService.persistance", "MyRecommendationsService.persistance\MyRecommendationsService.persistance.csproj", "{C9107BBE-5C96-4D74-AA05-91288325A281}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyRecommendationsService.WebApi", "MyRecommendationsService.WebApi\MyRecommendationsService.WebApi.csproj", "{C96AD7FB-6730-417D-9C2D-3FD1F9F2B1C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyRecommendationsService.WebApi", "MyRecommendationsService.WebApi\MyRecommendationsService.WebApi.csproj", "{C96AD7FB-6730-417D-9C2D-3FD1F9F2B1C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{5D217B95-180E-45C9-8F35-682FC7FDBF5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

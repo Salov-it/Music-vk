@@ -30,9 +30,6 @@
             "projectReferences": {
               "D:\\github\\Music-vk\\src\\Myaudio.services\\Myaudio.Domain\\Myaudio.Domain.csproj": {
                 "projectPath": "D:\\github\\Music-vk\\src\\Myaudio.services\\Myaudio.Domain\\Myaudio.Domain.csproj"
-              },
-              "D:\\github\\Music-vk\\src\\Myaudio.services\\Myaudio.persistance\\Myaudio.persistance.csproj": {
-                "projectPath": "D:\\github\\Music-vk\\src\\Myaudio.services\\Myaudio.persistance\\Myaudio.persistance.csproj"
               }
             }
           }
@@ -47,6 +44,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[12.0.1, )"
@@ -88,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -143,7 +144,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -171,6 +172,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "D:\\github\\Music-vk\\src\\Myaudio.services\\Myaudio.Application\\Myaudio.Application.csproj": {
+                "projectPath": "D:\\github\\Music-vk\\src\\Myaudio.services\\Myaudio.Application\\Myaudio.Application.csproj"
+              },
               "D:\\github\\Music-vk\\src\\Myaudio.services\\Myaudio.Domain\\Myaudio.Domain.csproj": {
                 "projectPath": "D:\\github\\Music-vk\\src\\Myaudio.services\\Myaudio.Domain\\Myaudio.Domain.csproj"
               }
@@ -212,7 +216,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -262,6 +266,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[11.0.0, )"
@@ -298,7 +310,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
