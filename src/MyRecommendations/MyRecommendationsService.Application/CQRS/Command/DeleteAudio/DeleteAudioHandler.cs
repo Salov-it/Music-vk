@@ -1,46 +1,46 @@
 ﻿using MediatR;
-using MyRecommendationsService.persistance;
+using MyRecommendationsService.Application.Interface;
 
 namespace MyRecommendationsService.Application.CQRS.Command.DeleteAudio
 {
     public class DeleteAudioHandler : IRequestHandler<DeleteAudioCommand, string>
     {
+      
+        public readonly IContext _context;
+        public DeleteAudioHandler(IContext context)
+        {
+            _context = context;
+        }
         public async Task<string> Handle(DeleteAudioCommand request, CancellationToken cancellationToken)
         {
             if (request.DeleteAudio == "Delete")
             {
 
-
-                using (Context db = new Context())
+                var content = _context.Audios.ToList();
+                for (int i = 0; i < content.Count; i++)
                 {
-                    var content = db.audios.ToList();
-                    for (int i = 0; i < content.Count; i++)
+                    var FileName = content[i].File;
+                    if (File.Exists(FileName))
                     {
-                        var FileName = content[i].File;
-                        if (File.Exists(FileName))
+                        try
                         {
-                            try
-                            {
-                                File.Delete(FileName);
-                            }
-                            catch (Exception e)
-                            {
-                                Console.WriteLine("The deletion failed: {0}", e.Message);
-                            }
+                            File.Delete(FileName);
                         }
-                        else
+                        catch (Exception e)
                         {
-                            Console.WriteLine("Specified file doesn't exist");
+                            Console.WriteLine("The deletion failed: {0}", e.Message);
                         }
 
                     }
 
 
                 }
+
             }
 
             return "Выполнено";
         }
     }
+    
     
 }

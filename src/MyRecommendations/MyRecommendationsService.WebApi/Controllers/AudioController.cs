@@ -18,11 +18,12 @@ namespace MyRecommendationsService.WebApi.Controllers
         }
 
         [HttpGet("GetDowload")]
-        public async Task<IActionResult> GetDowload(int CountAudio)
+        public async Task<IActionResult> GetDowload(uint CountAudio, uint? UserId)
         {
             var content = new GetAudioDowloadCommand
             {
-                CountAudio = CountAudio
+                CountAudio = CountAudio,
+                UserId = UserId
             };
             var answer = await mediator.Send(content);
             return Ok(answer);

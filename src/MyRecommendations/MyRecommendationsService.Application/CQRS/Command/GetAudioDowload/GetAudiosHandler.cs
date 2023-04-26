@@ -1,22 +1,56 @@
 ﻿using MediatR;
+using MyRecommendationsService.Application.Interface;
+using MyRecommendationsService.Domain;
 
 namespace MyRecommendationsService.Application.CQRS.Command.GetAudioDowload
 {
     public class GetAudiosHandler : IRequestHandler<GetAudioDowloadCommand, string>
     {
+        private readonly IAudiosRepository _repository;
+        private readonly IVkApiService _vkApiService;
+        private readonly ILooadin _looadin;
+
+        public GetAudiosHandler(IAudiosRepository repository, IVkApiService vkApiService, ILooadin looadin)
+        {
+            _repository = repository;
+            _vkApiService = vkApiService;
+            _looadin = looadin;
+        }
         public async Task<string> Handle(GetAudioDowloadCommand request, CancellationToken cancellationToken)
         {
-            //Очистка баз данных
-            BaseDelete baseDelete = new BaseDelete();
-            baseDelete.BasseDelet();
-            // получения mp3
-            Audios audio = new Audios();
-            audio.GetAudio(request.CountAudio);
-            //Загрузка mp3
-            LoadingMp3 loadingMp3 = new LoadingMp3();
-            loadingMp3.LooadingMp3();
+            await ClearDatabaseAsync();
 
-            return "Загружаю";
+            var audios = await _vkApiService.GetAudiosAsync(request.CountAudio,request.UserId);
+
+            foreach (var audio in audios)
+            {
+                var audios2 = new Audio
+                {
+                    Name = audio.Title,
+                    Time = audio.Duration,
+                    Urilvk = audio.Url.ToString(),
+                    File = $"./mp3/{audio.Title}.mp3"
+                };
+
+                await _repository.AddAsync(audios2);
+            }
+            await _repository.SaveChangesAsync();
+
+            _looadin.LooadingMp3();
+
+            return "ok";
+        }
+
+        private async Task ClearDatabaseAsync()
+        {
+            var audios = await _repository.GetAllAsync();
+
+            foreach (var audio in audios)
+            {
+                _repository.Remove(audio);
+            }
+
+            await _repository.SaveChangesAsync();
         }
     }
 }

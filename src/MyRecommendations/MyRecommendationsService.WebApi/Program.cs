@@ -3,6 +3,7 @@ using MyRecommendationsService.Application.Mapping;
 using System.Reflection;
 using MyRecommendationsService.Application;
 using MyRecommendationsService.persistance;
+using MyRecommendationsService.Application.CQRS.Command.GetAudioDowload;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +17,9 @@ builder.Services.AddAutoMapper(config =>
 
 builder.Services.AddApplication();
 builder.Services.AddPersistance(configuration);
+builder.Services.AddScoped<IAudiosRepository, AudiosRepository>();
+builder.Services.AddScoped<IVkApiService, VkApiService>();
+builder.Services.AddScoped<ILooadin, LoadingMp3>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -23,6 +27,20 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var serviseProvider = scope.ServiceProvider;
+    try
+    {
+        var context = serviseProvider.GetRequiredService<Context>();
+        DbInit.init(context);
+    }
+    catch (Exception ex)
+    {
+
+    }
+};
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

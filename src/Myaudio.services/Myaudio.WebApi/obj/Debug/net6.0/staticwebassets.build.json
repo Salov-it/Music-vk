@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "BxPxgOQR4Xr+1EEGmOTGIdN0cHcVdnPCcf7ZMeJjwBc=",
+  "Source": "Myaudio.WebApi",
+  "BasePath": "_content/Myaudio.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
