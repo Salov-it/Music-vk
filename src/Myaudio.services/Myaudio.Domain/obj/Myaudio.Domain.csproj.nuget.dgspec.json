@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\github\\Music-vk\\src\\Myaudio.services\\Myaudio.Domain\\Myaudio.Domain.csproj": {}
+    "C:\\Programmist_salov\\Github\\Music-vk\\src\\Myaudio.services\\Myaudio.Domain\\Myaudio.Domain.csproj": {}
   },
   "projects": {
-    "D:\\github\\Music-vk\\src\\Myaudio.services\\Myaudio.Domain\\Myaudio.Domain.csproj": {
+    "C:\\Programmist_salov\\Github\\Music-vk\\src\\Myaudio.services\\Myaudio.Domain\\Myaudio.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\github\\Music-vk\\src\\Myaudio.services\\Myaudio.Domain\\Myaudio.Domain.csproj",
+        "projectUniqueName": "C:\\Programmist_salov\\Github\\Music-vk\\src\\Myaudio.services\\Myaudio.Domain\\Myaudio.Domain.csproj",
         "projectName": "Myaudio.Domain",
-        "projectPath": "D:\\github\\Music-vk\\src\\Myaudio.services\\Myaudio.Domain\\Myaudio.Domain.csproj",
-        "packagesPath": "C:\\Users\\salov\\.nuget\\packages\\",
-        "outputPath": "D:\\github\\Music-vk\\src\\Myaudio.services\\Myaudio.Domain\\obj\\",
+        "projectPath": "C:\\Programmist_salov\\Github\\Music-vk\\src\\Myaudio.services\\Myaudio.Domain\\Myaudio.Domain.csproj",
+        "packagesPath": "C:\\Users\\фрдо\\.nuget\\packages\\",
+        "outputPath": "C:\\Programmist_salov\\Github\\Music-vk\\src\\Myaudio.services\\Myaudio.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\salov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\фрдо\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

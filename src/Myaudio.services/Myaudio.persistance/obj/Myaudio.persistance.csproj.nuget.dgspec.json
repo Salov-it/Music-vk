@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\github\\Music-vk\\src\\Myaudio.services\\Myaudio.persistance\\Myaudio.persistance.csproj": {}
+    "C:\\Programmist_salov\\Github\\Music-vk\\src\\Myaudio.services\\Myaudio.persistance\\Myaudio.persistance.csproj": {}
   },
   "projects": {
-    "D:\\github\\Music-vk\\src\\Myaudio.services\\Myaudio.Application\\Myaudio.Application.csproj": {
+    "C:\\Programmist_salov\\Github\\Music-vk\\src\\Myaudio.services\\Myaudio.Application\\Myaudio.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\github\\Music-vk\\src\\Myaudio.services\\Myaudio.Application\\Myaudio.Application.csproj",
+        "projectUniqueName": "C:\\Programmist_salov\\Github\\Music-vk\\src\\Myaudio.services\\Myaudio.Application\\Myaudio.Application.csproj",
         "projectName": "Myaudio.Application",
-        "projectPath": "D:\\github\\Music-vk\\src\\Myaudio.services\\Myaudio.Application\\Myaudio.Application.csproj",
-        "packagesPath": "C:\\Users\\salov\\.nuget\\packages\\",
-        "outputPath": "D:\\github\\Music-vk\\src\\Myaudio.services\\Myaudio.Application\\obj\\",
+        "projectPath": "C:\\Programmist_salov\\Github\\Music-vk\\src\\Myaudio.services\\Myaudio.Application\\Myaudio.Application.csproj",
+        "packagesPath": "C:\\Users\\фрдо\\.nuget\\packages\\",
+        "outputPath": "C:\\Programmist_salov\\Github\\Music-vk\\src\\Myaudio.services\\Myaudio.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\salov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\фрдо\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\github\\Music-vk\\src\\Myaudio.services\\Myaudio.Domain\\Myaudio.Domain.csproj": {
-                "projectPath": "D:\\github\\Music-vk\\src\\Myaudio.services\\Myaudio.Domain\\Myaudio.Domain.csproj"
+              "C:\\Programmist_salov\\Github\\Music-vk\\src\\Myaudio.services\\Myaudio.Domain\\Myaudio.Domain.csproj": {
+                "projectPath": "C:\\Programmist_salov\\Github\\Music-vk\\src\\Myaudio.services\\Myaudio.Domain\\Myaudio.Domain.csproj"
               }
             }
           }
@@ -89,21 +89,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\github\\Music-vk\\src\\Myaudio.services\\Myaudio.Domain\\Myaudio.Domain.csproj": {
+    "C:\\Programmist_salov\\Github\\Music-vk\\src\\Myaudio.services\\Myaudio.Domain\\Myaudio.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\github\\Music-vk\\src\\Myaudio.services\\Myaudio.Domain\\Myaudio.Domain.csproj",
+        "projectUniqueName": "C:\\Programmist_salov\\Github\\Music-vk\\src\\Myaudio.services\\Myaudio.Domain\\Myaudio.Domain.csproj",
         "projectName": "Myaudio.Domain",
-        "projectPath": "D:\\github\\Music-vk\\src\\Myaudio.services\\Myaudio.Domain\\Myaudio.Domain.csproj",
-        "packagesPath": "C:\\Users\\salov\\.nuget\\packages\\",
-        "outputPath": "D:\\github\\Music-vk\\src\\Myaudio.services\\Myaudio.Domain\\obj\\",
+        "projectPath": "C:\\Programmist_salov\\Github\\Music-vk\\src\\Myaudio.services\\Myaudio.Domain\\Myaudio.Domain.csproj",
+        "packagesPath": "C:\\Users\\фрдо\\.nuget\\packages\\",
+        "outputPath": "C:\\Programmist_salov\\Github\\Music-vk\\src\\Myaudio.services\\Myaudio.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\salov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\фрдо\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -144,21 +144,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\github\\Music-vk\\src\\Myaudio.services\\Myaudio.persistance\\Myaudio.persistance.csproj": {
+    "C:\\Programmist_salov\\Github\\Music-vk\\src\\Myaudio.services\\Myaudio.persistance\\Myaudio.persistance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\github\\Music-vk\\src\\Myaudio.services\\Myaudio.persistance\\Myaudio.persistance.csproj",
+        "projectUniqueName": "C:\\Programmist_salov\\Github\\Music-vk\\src\\Myaudio.services\\Myaudio.persistance\\Myaudio.persistance.csproj",
         "projectName": "Myaudio.persistance",
-        "projectPath": "D:\\github\\Music-vk\\src\\Myaudio.services\\Myaudio.persistance\\Myaudio.persistance.csproj",
-        "packagesPath": "C:\\Users\\salov\\.nuget\\packages\\",
-        "outputPath": "D:\\github\\Music-vk\\src\\Myaudio.services\\Myaudio.persistance\\obj\\",
+        "projectPath": "C:\\Programmist_salov\\Github\\Music-vk\\src\\Myaudio.services\\Myaudio.persistance\\Myaudio.persistance.csproj",
+        "packagesPath": "C:\\Users\\фрдо\\.nuget\\packages\\",
+        "outputPath": "C:\\Programmist_salov\\Github\\Music-vk\\src\\Myaudio.services\\Myaudio.persistance\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\salov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\фрдо\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -172,11 +172,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\github\\Music-vk\\src\\Myaudio.services\\Myaudio.Application\\Myaudio.Application.csproj": {
-                "projectPath": "D:\\github\\Music-vk\\src\\Myaudio.services\\Myaudio.Application\\Myaudio.Application.csproj"
+              "C:\\Programmist_salov\\Github\\Music-vk\\src\\Myaudio.services\\Myaudio.Application\\Myaudio.Application.csproj": {
+                "projectPath": "C:\\Programmist_salov\\Github\\Music-vk\\src\\Myaudio.services\\Myaudio.Application\\Myaudio.Application.csproj"
               },
-              "D:\\github\\Music-vk\\src\\Myaudio.services\\Myaudio.Domain\\Myaudio.Domain.csproj": {
-                "projectPath": "D:\\github\\Music-vk\\src\\Myaudio.services\\Myaudio.Domain\\Myaudio.Domain.csproj"
+              "C:\\Programmist_salov\\Github\\Music-vk\\src\\Myaudio.services\\Myaudio.Domain\\Myaudio.Domain.csproj": {
+                "projectPath": "C:\\Programmist_salov\\Github\\Music-vk\\src\\Myaudio.services\\Myaudio.Domain\\Myaudio.Domain.csproj"
               }
             }
           }
@@ -216,7 +216,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
