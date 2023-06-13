@@ -4,6 +4,206 @@
     "C:\\Programmist_salov\\Github\\Music-vk\\src\\UserService\\UserService.WebApi\\UserService.WebApi.csproj": {}
   },
   "projects": {
+    "C:\\Programmist_salov\\Github\\Music-vk\\src\\UserService\\UserService.Application\\UserService.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Programmist_salov\\Github\\Music-vk\\src\\UserService\\UserService.Application\\UserService.Application.csproj",
+        "projectName": "UserService.Application",
+        "projectPath": "C:\\Programmist_salov\\Github\\Music-vk\\src\\UserService\\UserService.Application\\UserService.Application.csproj",
+        "packagesPath": "C:\\Users\\фрдо\\.nuget\\packages\\",
+        "outputPath": "C:\\Programmist_salov\\Github\\Music-vk\\src\\UserService\\UserService.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\фрдо\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Programmist_salov\\Github\\Music-vk\\src\\UserService\\UserService.Domain\\UserService.Domain.csproj": {
+                "projectPath": "C:\\Programmist_salov\\Github\\Music-vk\\src\\UserService\\UserService.Domain\\UserService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "VkNet": {
+              "target": "Package",
+              "version": "[1.72.0, )"
+            },
+            "VkNet.AudioBypassService": {
+              "target": "Package",
+              "version": "[1.7.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Programmist_salov\\Github\\Music-vk\\src\\UserService\\UserService.Domain\\UserService.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Programmist_salov\\Github\\Music-vk\\src\\UserService\\UserService.Domain\\UserService.Domain.csproj",
+        "projectName": "UserService.Domain",
+        "projectPath": "C:\\Programmist_salov\\Github\\Music-vk\\src\\UserService\\UserService.Domain\\UserService.Domain.csproj",
+        "packagesPath": "C:\\Users\\фрдо\\.nuget\\packages\\",
+        "outputPath": "C:\\Programmist_salov\\Github\\Music-vk\\src\\UserService\\UserService.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\фрдо\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Programmist_salov\\Github\\Music-vk\\src\\UserService\\UserService.Persistance\\UserService.Persistance.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Programmist_salov\\Github\\Music-vk\\src\\UserService\\UserService.Persistance\\UserService.Persistance.csproj",
+        "projectName": "UserService.Persistance",
+        "projectPath": "C:\\Programmist_salov\\Github\\Music-vk\\src\\UserService\\UserService.Persistance\\UserService.Persistance.csproj",
+        "packagesPath": "C:\\Users\\фрдо\\.nuget\\packages\\",
+        "outputPath": "C:\\Programmist_salov\\Github\\Music-vk\\src\\UserService\\UserService.Persistance\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\фрдо\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Programmist_salov\\Github\\Music-vk\\src\\UserService\\UserService.Application\\UserService.Application.csproj": {
+                "projectPath": "C:\\Programmist_salov\\Github\\Music-vk\\src\\UserService\\UserService.Application\\UserService.Application.csproj"
+              },
+              "C:\\Programmist_salov\\Github\\Music-vk\\src\\UserService\\UserService.Domain\\UserService.Domain.csproj": {
+                "projectPath": "C:\\Programmist_salov\\Github\\Music-vk\\src\\UserService\\UserService.Domain\\UserService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Programmist_salov\\Github\\Music-vk\\src\\UserService\\UserService.WebApi\\UserService.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -28,7 +228,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Programmist_salov\\Github\\Music-vk\\src\\UserService\\UserService.Persistance\\UserService.Persistance.csproj": {
+                "projectPath": "C:\\Programmist_salov\\Github\\Music-vk\\src\\UserService\\UserService.Persistance\\UserService.Persistance.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

@@ -1,0 +1,12 @@
+C:\Programmist_salov\Github\Music-vk\src\UserService\UserService.Domain\bin\Debug\net6.0\UserService.Domain.deps.json
+C:\Programmist_salov\Github\Music-vk\src\UserService\UserService.Domain\bin\Debug\net6.0\UserService.Domain.dll
+C:\Programmist_salov\Github\Music-vk\src\UserService\UserService.Domain\bin\Debug\net6.0\UserService.Domain.pdb
+C:\Programmist_salov\Github\Music-vk\src\UserService\UserService.Domain\obj\Debug\net6.0\UserService.Domain.csproj.AssemblyReference.cache
+C:\Programmist_salov\Github\Music-vk\src\UserService\UserService.Domain\obj\Debug\net6.0\UserService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programmist_salov\Github\Music-vk\src\UserService\UserService.Domain\obj\Debug\net6.0\UserService.Domain.AssemblyInfoInputs.cache
+C:\Programmist_salov\Github\Music-vk\src\UserService\UserService.Domain\obj\Debug\net6.0\UserService.Domain.AssemblyInfo.cs
+C:\Programmist_salov\Github\Music-vk\src\UserService\UserService.Domain\obj\Debug\net6.0\UserService.Domain.csproj.CoreCompileInputs.cache
+C:\Programmist_salov\Github\Music-vk\src\UserService\UserService.Domain\obj\Debug\net6.0\UserService.Domain.dll
+C:\Programmist_salov\Github\Music-vk\src\UserService\UserService.Domain\obj\Debug\net6.0\refint\UserService.Domain.dll
+C:\Programmist_salov\Github\Music-vk\src\UserService\UserService.Domain\obj\Debug\net6.0\UserService.Domain.pdb
+C:\Programmist_salov\Github\Music-vk\src\UserService\UserService.Domain\obj\Debug\net6.0\ref\UserService.Domain.dll

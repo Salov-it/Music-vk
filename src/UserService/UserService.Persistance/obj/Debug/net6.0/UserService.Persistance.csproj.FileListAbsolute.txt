@@ -1,0 +1,17 @@
+C:\Programmist_salov\Github\Music-vk\src\UserService\UserService.Persistance\bin\Debug\net6.0\UserService.Persistance.deps.json
+C:\Programmist_salov\Github\Music-vk\src\UserService\UserService.Persistance\bin\Debug\net6.0\UserService.Persistance.dll
+C:\Programmist_salov\Github\Music-vk\src\UserService\UserService.Persistance\bin\Debug\net6.0\UserService.Persistance.pdb
+C:\Programmist_salov\Github\Music-vk\src\UserService\UserService.Persistance\bin\Debug\net6.0\UserService.Application.dll
+C:\Programmist_salov\Github\Music-vk\src\UserService\UserService.Persistance\bin\Debug\net6.0\UserService.Domain.dll
+C:\Programmist_salov\Github\Music-vk\src\UserService\UserService.Persistance\bin\Debug\net6.0\UserService.Application.pdb
+C:\Programmist_salov\Github\Music-vk\src\UserService\UserService.Persistance\bin\Debug\net6.0\UserService.Domain.pdb
+C:\Programmist_salov\Github\Music-vk\src\UserService\UserService.Persistance\obj\Debug\net6.0\UserService.Persistance.csproj.AssemblyReference.cache
+C:\Programmist_salov\Github\Music-vk\src\UserService\UserService.Persistance\obj\Debug\net6.0\UserService.Persistance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programmist_salov\Github\Music-vk\src\UserService\UserService.Persistance\obj\Debug\net6.0\UserService.Persistance.AssemblyInfoInputs.cache
+C:\Programmist_salov\Github\Music-vk\src\UserService\UserService.Persistance\obj\Debug\net6.0\UserService.Persistance.AssemblyInfo.cs
+C:\Programmist_salov\Github\Music-vk\src\UserService\UserService.Persistance\obj\Debug\net6.0\UserService.Persistance.csproj.CoreCompileInputs.cache
+C:\Programmist_salov\Github\Music-vk\src\UserService\UserService.Persistance\obj\Debug\net6.0\UserService.Persistance.csproj.CopyComplete
+C:\Programmist_salov\Github\Music-vk\src\UserService\UserService.Persistance\obj\Debug\net6.0\UserService.Persistance.dll
+C:\Programmist_salov\Github\Music-vk\src\UserService\UserService.Persistance\obj\Debug\net6.0\refint\UserService.Persistance.dll
+C:\Programmist_salov\Github\Music-vk\src\UserService\UserService.Persistance\obj\Debug\net6.0\UserService.Persistance.pdb
+C:\Programmist_salov\Github\Music-vk\src\UserService\UserService.Persistance\obj\Debug\net6.0\ref\UserService.Persistance.dll

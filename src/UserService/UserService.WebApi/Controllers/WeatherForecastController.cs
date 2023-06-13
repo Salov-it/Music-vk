@@ -1,4 +1,6 @@
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using UserService.Application.CQRS.Command.Authorization;
 
 namespace UserService.WebApi.Controllers
 {
@@ -6,28 +8,23 @@ namespace UserService.WebApi.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
-        private static readonly string[] Summaries = new[]
-        {
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-    };
+        private readonly IMediator mediator;
 
-        private readonly ILogger<WeatherForecastController> _logger;
-
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public WeatherForecastController(IMediator mediator)
         {
-            _logger = logger;
+            this.mediator = mediator;
         }
 
-        [HttpGet(Name = "GetWeatherForecast")]
-        public IEnumerable<WeatherForecast> Get()
+        [HttpGet("GetAuto")]
+        public async Task<IActionResult> GetDowload(string login, string password)
         {
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+            var content = new GetAutCommand
             {
-                Date = DateTime.Now.AddDays(index),
-                TemperatureC = Random.Shared.Next(-20, 55),
-                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-            })
-            .ToArray();
+               login = login,
+               password = password
+            };
+            var answer = await mediator.Send(content);
+            return Ok(answer);
         }
     }
 }
