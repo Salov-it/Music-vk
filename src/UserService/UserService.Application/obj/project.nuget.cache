@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "vy6as+aH3chVH7ynONQRVzmvmfn3Qz8Bq1x2dB+ALwhXLdhVQJFHjr1EUMvFd7UI4EAAkFXCAGjyAIxj2qLg4A==",
+  "dgSpecHash": "gjo2G7DR2MlpXVe/Pb6VLqhMFo8UmOQwtQDsNijVxmIWXzxMQLmB1eBt3TAaZfDzXlEDc40Wmoz6fyBYb6dusw==",
   "success": true,
   "projectFilePath": "C:\\Programmist_salov\\Github\\Music-vk\\src\\UserService\\UserService.Application\\UserService.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\фрдо\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\фрдо\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512",
     "C:\\Users\\фрдо\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
     "C:\\Users\\фрдо\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\фрдо\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\фрдо\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.16\\microsoft.entityframeworkcore.6.0.16.nupkg.sha512",
     "C:\\Users\\фрдо\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.16\\microsoft.entityframeworkcore.abstractions.6.0.16.nupkg.sha512",
     "C:\\Users\\фрдо\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.16\\microsoft.entityframeworkcore.analyzers.6.0.16.nupkg.sha512",
